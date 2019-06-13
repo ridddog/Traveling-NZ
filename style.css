@@ -1,0 +1,123 @@
+/*
+dark primary color: #212121
+primany color: #9E9E9E
+accent color: #BDBDBD
+text: #757575
+hover text: #212121
+*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: 
+ 
+}
+
+
+
+h1 {
+    
+    background-color: #212121;
+    color: #9E9E9E; 
+    padding: 40px;
+    font-size: 49px;
+    font-weight: 300;
+
+        
+}
+
+h2 {
+    
+    font-weight: 400;
+    text-align: center
+}
+
+p {
+    line-height: 150%;
+    margin: 30px;
+}
+
+
+header{
+    
+    text-transform:uppercase;
+}
+
+section {
+    margin: 0 auto; 
+    width: 600px;
+    
+}
+
+section li {
+    
+    text-align: center;
+    list-style: none
+}
+
+nav {
+    background-color: #212121;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+
+nav li, nav a { 
+
+    display: inline-block
+
+}
+
+nav ul {
+    list-style:none;
+    color: #757575
+}
+
+nav a {
+    color: #757575;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    
+}
+
+nav a:hover {
+    color: #BDBDBD;
+}
+
+
+img {
+
+    margin: 0 auto;
+    display: block;
+    padding: 10px
+}
+
+iframe {
+    
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    border: 0px;
+}
+
+footer {
+    
+    background-color: #212121;
+    color: #9E9E9E;
+    padding: 2px;
+    
+}
+
+h1, nav, footer  {
+    
+    text-align: center
+}
+
+.active {
+    
+    color: #BDBDBD; 
+}
